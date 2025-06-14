@@ -32,11 +32,11 @@ int main(int argc, char *argv[]) {
 		exit(EXIT_FAILURE);
 	}
 
-	if (strncmp(argv[1], "--server", 8) == 0) {
+	if (strcmp(argv[1], "--server") == 0) {
 		return server_main();
 	}
 
-	if (strncmp(argv[1], "--client", 8) == 0) {
+	if (strcmp(argv[1], "--client") == 0) {
 		return client_main();
 	}
 
