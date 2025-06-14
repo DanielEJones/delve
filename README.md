@@ -1,2 +1,2 @@
 # delve
-Small networked videogame
+A small networked videogame about going deeper.
